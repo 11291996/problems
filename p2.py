@@ -1,0 +1,7 @@
+TTEOKBOKKI = input('Vote for TTEOKBOKKI: ')
+CHICKEN = input('Vote for CHICKEN: ')
+NOODLE = input('Vote for NOODLE: ')
+print(format('MENU', '>12'), format('VOTE', '>6'), format('RATIO', '>8'))
+print(format('TTEOKBOKKI', '>12'), format(TTEOKBOKKI, '>6'), format('27.50', '>8'))
+print(format('CHICKEN', '>12'), format(CHICKEN, '>6'), format('62.50', '>8'))
+print(format('NOODLE', '>12'), format(NOODLE, '>6'), format('10.00', '>8'))
