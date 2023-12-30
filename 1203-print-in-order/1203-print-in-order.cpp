@@ -13,7 +13,7 @@ public:
         currentPrint=2; //updates conditional variable 
         printFirst();
         cv.notify_all(); //broadcasting 
-    } //c++ mutex unlocks as the function terminals 
+    } //c++ mutex unique_lock unlocks as the function terminals 
 
     void second(function<void()> printSecond) {
         unique_lock<mutex>lock(mtx);
